@@ -23,11 +23,11 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/app"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/appfunction"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/internal/app"
+	"github.com/migelankodra/application-service/v2/internal/appfunction"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	"github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
 )
 
 // NewAppService creates and returns a new ApplicationService with the default TargetType

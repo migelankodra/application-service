@@ -26,8 +26,8 @@ import (
 
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/util"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/util"
 
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/common"
 )

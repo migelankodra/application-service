@@ -28,10 +28,10 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db/interfaces"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	"github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal/store"
+	"github.com/migelankodra/application-service/v2/internal/store/db/interfaces"
 )
 
 // Database contains references to dependencies required by the database bootstrap implementation.

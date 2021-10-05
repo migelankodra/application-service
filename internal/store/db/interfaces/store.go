@@ -16,7 +16,7 @@
 package interfaces
 
 import (
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/contracts"
+	"github.com/migelankodra/application-service/v2/internal/store/contracts"
 )
 
 // StoreClient establishes the contracts required to persist exported data before being forwarded.

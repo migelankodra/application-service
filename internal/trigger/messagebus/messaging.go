@@ -23,13 +23,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/appfunction"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	sdkCommon "github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/runtime"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/util"
+	"github.com/migelankodra/application-service/v2/internal/appfunction"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	sdkCommon "github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal/runtime"
+	"github.com/migelankodra/application-service/v2/pkg/util"
 
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap"
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"

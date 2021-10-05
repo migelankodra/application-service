@@ -25,10 +25,10 @@ import (
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"
 	commonDtos "github.com/edgexfoundry/go-mod-core-contracts/v2/dtos/common"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	sdkCommon "github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/telemetry"
+	"github.com/migelankodra/application-service/v2/internal"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	sdkCommon "github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal/telemetry"
 
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/interfaces"
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"

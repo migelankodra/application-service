@@ -20,7 +20,7 @@ package http
 import (
 	"testing"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

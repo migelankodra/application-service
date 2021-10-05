@@ -17,7 +17,7 @@
 package transforms
 
 import (
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
 )
 
 // StringValuesFormatter defines a function signature to perform string formatting operations using an AppFunction payload.

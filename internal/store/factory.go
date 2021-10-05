@@ -16,9 +16,9 @@
 package store
 
 import (
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db/interfaces"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db/redis"
+	"github.com/migelankodra/application-service/v2/internal/store/db"
+	"github.com/migelankodra/application-service/v2/internal/store/db/interfaces"
+	"github.com/migelankodra/application-service/v2/internal/store/db/redis"
 
 	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v2/config"
 )

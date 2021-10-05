@@ -22,7 +22,7 @@ import (
 
 	"github.com/edgexfoundry/go-mod-messaging/v2/pkg/types"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
 )
 
 type backgroundPublisher struct {

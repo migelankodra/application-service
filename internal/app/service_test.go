@@ -25,16 +25,16 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/appfunction"
-	builtin "github.com/migelankodra/app-functions-sdk-go/v2/pkg/transforms"
+	"github.com/migelankodra/application-service/v2/internal/appfunction"
+	builtin "github.com/migelankodra/application-service/v2/pkg/transforms"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/runtime"
-	triggerHttp "github.com/migelankodra/app-functions-sdk-go/v2/internal/trigger/http"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/trigger/messagebus"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/webserver"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	"github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal/runtime"
+	triggerHttp "github.com/migelankodra/application-service/v2/internal/trigger/http"
+	"github.com/migelankodra/application-service/v2/internal/trigger/messagebus"
+	"github.com/migelankodra/application-service/v2/internal/webserver"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/di"

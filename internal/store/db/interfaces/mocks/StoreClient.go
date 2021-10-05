@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	contracts "github.com/migelankodra/app-functions-sdk-go/v2/internal/store/contracts"
+	contracts "github.com/migelankodra/application-service/v2/internal/store/contracts"
 
 	mock "github.com/stretchr/testify/mock"
 )

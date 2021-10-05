@@ -7,7 +7,7 @@ import (
 
 	clientsinterfaces "github.com/edgexfoundry/go-mod-core-contracts/v2/clients/interfaces"
 
-	interfaces "github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	interfaces "github.com/migelankodra/application-service/v2/pkg/interfaces"
 
 	logger "github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 

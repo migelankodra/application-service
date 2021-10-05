@@ -25,8 +25,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	sdkCommon "github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	sdkCommon "github.com/migelankodra/application-service/v2/internal/common"
 
 	bootstrapContainer "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/container"
 	"github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap/startup"

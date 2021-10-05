@@ -1,4 +1,4 @@
-module github.com/migelankodra/app-functions-sdk-go/v2
+module github.com/migelankodra/application-service/v2
 
 go 1.16
 

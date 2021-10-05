@@ -30,9 +30,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	"github.com/migelankodra/application-service/v2/internal/common"
 )
 
 var dic *di.Container

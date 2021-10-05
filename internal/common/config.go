@@ -19,7 +19,7 @@ package common
 import (
 	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v2/config"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db"
+	"github.com/migelankodra/application-service/v2/internal/store/db"
 )
 
 // WritableInfo is used to hold configuration information that is considered "live" or can be changed on the fly without a restart of the service.

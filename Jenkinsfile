@@ -15,7 +15,7 @@
 //
 
 edgeXBuildGoApp (
-    project: 'app-functions-sdk-go',
+    project: 'application-service',
     semver: true,
     testScript: 'make test',
     buildImage: false,

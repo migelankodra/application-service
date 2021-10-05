@@ -24,9 +24,9 @@ import (
 	"new-app-service/config"
 	"new-app-service/functions"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/transforms"
+	"github.com/migelankodra/application-service/v2/pkg"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/transforms"
 
 	"github.com/edgexfoundry/go-mod-core-contracts/v2/clients/logger"
 )

@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/util"
+	"github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/util"
 )
 
 // BatchMode Enum for choosing behavior of Batch. Default is CountAndTime.

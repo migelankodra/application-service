@@ -30,12 +30,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/bootstrap/container"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/common"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/contracts"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db/interfaces/mocks"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/transforms"
+	"github.com/migelankodra/application-service/v2/internal/bootstrap/container"
+	"github.com/migelankodra/application-service/v2/internal/common"
+	"github.com/migelankodra/application-service/v2/internal/store/contracts"
+	"github.com/migelankodra/application-service/v2/internal/store/db/interfaces/mocks"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/transforms"
 )
 
 var dic *di.Container

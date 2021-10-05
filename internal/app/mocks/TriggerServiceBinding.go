@@ -3,12 +3,12 @@
 package mocks
 
 import (
-	appfunction "github.com/migelankodra/app-functions-sdk-go/v2/internal/appfunction"
-	interfaces "github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	appfunction "github.com/migelankodra/application-service/v2/internal/appfunction"
+	interfaces "github.com/migelankodra/application-service/v2/pkg/interfaces"
 
 	mock "github.com/stretchr/testify/mock"
 
-	runtime "github.com/migelankodra/app-functions-sdk-go/v2/internal/runtime"
+	runtime "github.com/migelankodra/application-service/v2/internal/runtime"
 
 	types "github.com/edgexfoundry/go-mod-messaging/v2/pkg/types"
 )

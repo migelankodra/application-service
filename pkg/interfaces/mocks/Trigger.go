@@ -7,7 +7,7 @@ import (
 
 	bootstrap "github.com/edgexfoundry/go-mod-bootstrap/v2/bootstrap"
 
-	interfaces "github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
+	interfaces "github.com/migelankodra/application-service/v2/pkg/interfaces"
 
 	mock "github.com/stretchr/testify/mock"
 

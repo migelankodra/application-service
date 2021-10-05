@@ -26,8 +26,8 @@ import (
 	bootstrapConfig "github.com/edgexfoundry/go-mod-bootstrap/v2/config"
 	"github.com/stretchr/testify/require"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/contracts"
-	"github.com/migelankodra/app-functions-sdk-go/v2/internal/store/db"
+	"github.com/migelankodra/application-service/v2/internal/store/contracts"
+	"github.com/migelankodra/application-service/v2/internal/store/db"
 
 	"github.com/google/uuid"
 )

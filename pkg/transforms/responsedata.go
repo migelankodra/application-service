@@ -19,8 +19,8 @@ package transforms
 import (
 	"fmt"
 
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/interfaces"
-	"github.com/migelankodra/app-functions-sdk-go/v2/pkg/util"
+	"github.com/migelankodra/application-service/v2/pkg/interfaces"
+	"github.com/migelankodra/application-service/v2/pkg/util"
 )
 
 // ResponseData houses transform for outputting data to configured trigger response, i.e. message bus
